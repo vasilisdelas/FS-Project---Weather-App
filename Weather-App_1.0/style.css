@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    font-family: open sans;
+}
+
+.container {
+    width: 40%;
+    height: 90%;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.container .title h1 {
+    width: 100%;
+    height: 2em;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    background: rgb(230, 230, 230);
+}
+
+.container .input input, button {
+    display: flex;
+    text-align: center;
+    height: 2em;
+}
